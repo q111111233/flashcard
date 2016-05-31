@@ -1,10 +1,17 @@
 $(document).ready(function() {
-  $("button#dark").click(function() {
-    $("body").removeClass();
-    $("body").addClass("green-background");
+  $(".js").click(function() {
+    $(".JavaScript-hide").slideToggle();
+    $(".JavaScript-show").slideToggle();
   });
-  $("button#light").click(function() {
-    $("body").removeClass();
-    $("body").addClass("red-background");
-});
+
+  $(".Operators").click(function() {
+    $(".Operators-hide").slideToggle();
+    $(".Operators-show").slideToggle();
+  });
+
+  $(".Variables").click(function() {
+    $(".Variables-hide").slideToggle();
+    $(".Variables-show").slideToggle();
+  });
+
 });
