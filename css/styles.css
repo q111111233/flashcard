@@ -1,9 +1,11 @@
-img.fergus{
-  display: block;
-  max-width: 50%;
+.green-background {
+  background-color: green;
 }
 
-p.fergus{
-  font-size: 32px;
-  font-weight: bold;
+.yellow-background {
+  background-color: yellow;
+}
+
+.red-background {
+  background-color: red;
 }
