@@ -14,4 +14,14 @@ $(document).ready(function() {
     $(".Variables-show").slideToggle();
   });
 
+  $(".Varnames").click(function() {
+    $(".Varnames-hide").slideToggle();
+    $(".Varnames-show").slideToggle();
+  });
+
+  $(".Functions").click(function() {
+    $(".Functions-hide").slideToggle();
+    $(".Functions-show").slideToggle();
+  });
+
 });
